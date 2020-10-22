@@ -13,13 +13,21 @@ Dados: listas de palavras (sepadas por um espaço);
 
 Operações:
 
-criaReferenciaCruzada(E: texto): insere as palavras de um texto da referência cruzada
-inserePalavra(E: palavra): insere uma palavra na referência cruzada. Se ela não estiver na referência cruzada, inserir na lista adequada. Se já existir em uma lista, incrementar seu contador
-removePalavra(E: palavra): remove uma palavra de uma referência cruzada
-existePalavra(E: palavra): verifica se uma palavra faz parte da referência cruzada. Se fizer, exibe a quantidade de ocorrências
-exibeReferenciaCruzada ( ): exibe todas as palavras armazenadas e seus contadores
-exibePalavrasLetra (E: letra): exibe as palavras que iniciam por uma determinada letra, com seus contadores
-contaPalavrasDiferentesTotal(S: total): exibe o total de palavras (total de nodos das listas)
-contaPalavrasTotal(S: total): exibe o total de palavras (soma total dos contadores das palavras das listas)
-contaPalavrasPorLetra(E: letra; S: total): exibe o total de palavras (total de nodos da lista de palavras de uma letra)
+criaReferenciaCruzada(E: texto): insere as palavras de um texto da referência cruzada;
+
+inserePalavra(E: palavra): insere uma palavra na referência cruzada. Se ela não estiver na referência cruzada, inserir na lista adequada. Se já existir em uma lista, incrementar seu contador;
+
+removePalavra(E: palavra): remove uma palavra de uma referência cruzada;
+
+existePalavra(E: palavra): verifica se uma palavra faz parte da referência cruzada. Se fizer, exibe a quantidade de ocorrências;
+
+exibeReferenciaCruzada ( ): exibe todas as palavras armazenadas e seus contadores;
+
+exibePalavrasLetra (E: letra): exibe as palavras que iniciam por uma determinada letra, com seus contadores;
+
+contaPalavrasDiferentesTotal(S: total): exibe o total de palavras (total de nodos das listas);
+
+contaPalavrasTotal(S: total): exibe o total de palavras (soma total dos contadores das palavras das listas);
+
+contaPalavrasPorLetra(E: letra; S: total): exibe o total de palavras (total de nodos da lista de palavras de uma letra);
 }
